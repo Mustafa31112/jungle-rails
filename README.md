@@ -2,10 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-!["products-page"]()
-!["mycart-page"]()
-!["new-products-page"]()
-!["category-page"]()
+!["products-page"](https://github.com/Mustafa31112/jungle-rails/blob/master/docs/products.png)
+!["mycart-page"](https://github.com/Mustafa31112/jungle-rails/blob/master/docs/mycart.png)
+!["new-products-page"](https://github.com/Mustafa31112/jungle-rails/blob/master/docs/newproducts.png)
+!["category-page"](https://github.com/Mustafa31112/jungle-rails/blob/master/docs/category.png)
 
 ## Additional Steps for Apple M1 Machines
 
