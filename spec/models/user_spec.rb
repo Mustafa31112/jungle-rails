@@ -76,6 +76,13 @@ RSpec.describe User, type: :model do
 
       expect(User.authenticate_with_credentials(' mustafa@email.com ', 'abcabc')).to eq(@user)
     end
+    it 'should authenticate emails if there are cases' do
+      @user = User.new(name: 'Mustafa', last_name: 'Mohammed', email: 'mustafa@email.com', password: 'abcabc')
+      @user.save
+
+      expect(User.authenticate_with_credentials('MuStafa@Email.com', 'abcabc')).to eq(@user)
+    end
+
 
   end
 
